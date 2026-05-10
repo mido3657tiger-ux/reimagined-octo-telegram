@@ -2,28 +2,38 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>TigerX Empire | NovaDev</title>
+    <title>Tiger-X Empire | Cyber Dashboard</title>
     <style>
-        body { background: #0a0a0a; color: white; font-family: sans-serif; text-align: center; margin: 0; }
-        header { padding: 100px 20px; border-bottom: 5px solid #ff4d05; }
-        .tiger { font-size: 5rem; color: #ff4d05; text-shadow: 0 0 20px #ff4d05; }
-        .grid { display: flex; justify-content: center; gap: 20px; padding: 50px; flex-wrap: wrap; }
-        .card { background: #1a1a1a; padding: 20px; border-radius: 15px; width: 250px; border: 1px solid #333; }
-        .btn { background: #ff4d05; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; }
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; margin: 0; }
+        .header { border-bottom: 2px solid #ff4d05; padding: 20px; text-align: center; }
+        .tiger-brand { font-size: 3.5rem; color: #ff4d05; text-shadow: 0 0 15px #ff4d05; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+        .card { background: #0a0a0a; border: 1px solid #111; padding: 20px; border-radius: 10px; border-left: 4px solid #ff4d05; }
+        .terminal { background: #050505; color: #0f0; padding: 15px; border-radius: 5px; height: 100px; font-size: 13px; overflow: hidden; }
+        .btn { background: #ff4d05; color: #fff; padding: 10px 25px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 15px; }
     </style>
 </head>
 <body>
-    <header>
-        <div class="tiger">🐯 TIGER-X</div>
-        <h1>إمبراطورية محمد محمود للبرمجيات</h1>
-        <p>Full-Stack Developer | Security Expert | Automation</p>
-        <a href="https://t.me/TigerX_Empire_Bot" class="btn">تشغيل البوت الملكي</a>
-    </header>
+    <div class="header">
+        <div class="tiger-brand">🐯 TIGER-X EMPIRE</div>
+        <p>نظام الإدارة المركزية والاختراق المتقدم</p>
+    </div>
     <div class="grid">
-        <div class="card"><h3>Tiger-CORE</h3><p>نظام إدارة السيرفرات</p></div>
-        <div class="card"><h3>NovaDev UI</h3><p>واجهات مستخدم احترافية</p></div>
-        <div class="card"><h3>Cyber-Shield</h3><p>أنظمة حماية الشبكات</p></div>
+        <div class="card">
+            <h3>🛡️ Security Auditor</h3>
+            <p>حالة جدار الحماية: <span style="color:white">Stealth Mode</span></p>
+            <div class="terminal">> Scan ports... [OK]<br>> Vulnerability check... [PENDING]</div>
+        </div>
+        <div class="card">
+            <h3>🛰️ Remote Control</h3>
+            <p>التحكم في سيرفراتك عن بُعد عبر التليجرام.</p>
+            <a href="#" class="btn">فتح النظام</a>
+        </div>
+        <div class="card">
+            <h3>📊 Page Management</h3>
+            <p>إدارة مشاريع NovaDev ومراقبة الأداء.</p>
+            <div class="terminal">> System Uptime: 99.9%<br>> Active Nodes: 4</div>
+        </div>
     </div>
 </body>
 </html>
-
