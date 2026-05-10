@@ -1,19 +1,19 @@
-# 🐯 Tiger-X Ultimate v5.0 (NovaDev System)
+# 🐯 TIGERX-NOVA ULTIMATE (V8.0)
 
-## 🛡️ Cyber Security & Remote Administration Hub
-Professional full-stack system designed for remote server exploitation, monitoring, and administrative control.
+## 🛡️ Professional Administrative & Security Suite
+This is a comprehensive full-stack ecosystem designed for elite-level server management, cyber-security auditing, and automated digital growth.
 
-### 🚀 Core Features:
-- **Remote Terminal Execution:** Full command-line access via encrypted Telegram API.
-- **Cyber-Audit Suite:** Built-in wrappers for `Nmap`, `Sqlmap`, and `Dirb`.
-- **System Monitoring:** Real-time dashboard for server health and active nodes.
-- **Vulnerability Scanner:** Automated scripts to detect security loopholes.
+### 🔑 Key Modules
+1. **Nova-Shell:** Direct remote terminal access via Telegram bot.
+2. **Cyber-Audit Suite:** Integrated wrappers for Nmap, Vuln-scanning, and network reconnaissance.
+3. **Growth Engine:** Advanced algorithms to boost social media engagement and reach.
+4. **Market Terminal:** Real-time financial monitoring and crypto signal analysis.
+5. **Unified Dashboard:** High-performance web interface for system monitoring.
 
-### 🛠️ Technology Stack:
-- **Engine:** Node.js (Telegraf v4, Axios, Child Process)
-- **Environment:** Termux / Linux Subsystems
-- **Architecture:** Tiger-CORE V2 Centralized Management
-
-### ⚠️ Disclaimer:
-This system is created for educational and professional security auditing purposes by Mohamed Mahmoud (NovaDev).
+### ⚙️ Quick Start (Termux)
+```bash
+git clone [repository_url]
+cd [repository_name]
+bash install.sh
+node index.js
 
