@@ -1,18 +1,30 @@
 {
-  "name": "tigerx-ultimate-nova",
-  "version": "5.0.0",
-  "description": "Professional Management & Security Hub",
+  "name": "tigerx-nova-ultimate-v8",
+  "version": "8.0.0",
+  "description": "Enterprise-grade Administration & Security System",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "author": "TigerX-Nova",
+  "keywords": [
+    "hacking",
+    "security",
+    "automation",
+    "social-media",
+    "trading",
+    "tigerx"
+  ],
+  "author": "Nova-Core",
+  "license": "MIT",
   "dependencies": {
     "telegraf": "^4.12.0",
     "axios": "^1.4.0",
     "express": "^4.18.2",
-    "web3": "^4.0.1",
-    "child_process": "^1.0.2"
+    "dotenv": "^16.0.3",
+    "child_process": "^1.0.2",
+    "path": "^0.12.7",
+    "fs": "0.0.1-security"
   }
 }
 
