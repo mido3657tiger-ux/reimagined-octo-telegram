@@ -1,0 +1,210 @@
+/**
+ * TIGERX-NOVA ULTIMATE ECOSYSTEM
+ * PROFESSIONAL CYBER-SECURITY & ADMIN UI
+ * VERSION: 8.0.0
+ */
+
+/* --- ROOT VARIABLES --- */
+:root {
+    --bg-dark: #050505;
+    --bg-card: #0d0d0d;
+    --tiger-orange: #ff4d05;
+    --nova-green: #00ff00;
+    --text-main: #e0e0e0;
+    --text-dim: #888888;
+    --border-color: #222222;
+    --glow-shadow: 0 0 15px rgba(255, 77, 5, 0.3);
+    --transition: all 0.3s ease;
+}
+
+/* --- GLOBAL STYLES --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* --- NAVIGATION --- */
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid var(--tiger-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-brand {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--tiger-orange);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: var(--glow-shadow);
+}
+
+.nav-status {
+    font-size: 0.9rem;
+    color: var(--nova-green);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle at center, #1a0a00 0%, #050505 100%);
+    padding: 0 20px;
+}
+
+.tiger-logo-large {
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--tiger-orange);
+    margin-bottom: 10px;
+    text-shadow: 0 0 40px var(--tiger-orange);
+    animation: pulse 3s infinite;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    max-width: 700px;
+}
+
+/* --- GRID SYSTEM --- */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+/* --- CARD DESIGN --- */
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 35px;
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.card:hover {
+    border-color: var(--tiger-orange);
+    transform: translateY(-10px);
+    box-shadow: var(--glow-shadow);
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--tiger-orange);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: var(--tiger-orange);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.card p {
+    color: var(--text-dim);
+    margin-bottom: 20px;
+}
+
+/* --- TERMINAL EMULATOR --- */
+.terminal-box {
+    background: #000000;
+    border: 1px solid #1a1a1a;
+    border-radius: 6px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    color: var(--nova-green);
+    height: 120px;
+    overflow-y: auto;
+}
+
+.terminal-line::before {
+    content: "nova-core@tigerx:~$ ";
+    color: var(--tiger-orange);
+}
+
+/* --- BUTTONS --- */
+.btn-primary {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--tiger-orange);
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px #fff;
+}
+
+/* --- ANIMATIONS --- */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+@media (max-width: 768px) {
+    .tiger-logo-large { font-size: 4rem; }
+    .hero h1 { font-size: 1.8rem; }
+    .navbar { padding: 15px 20px; }
+}
