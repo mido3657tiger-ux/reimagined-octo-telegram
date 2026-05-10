@@ -1,25 +1,17 @@
 {
-  "name": "tiger-x-ultimate",
+  "name": "tigerx-ultimate-nova",
   "version": "5.0.0",
-  "description": "Security Administration & Automated Hacking System",
+  "description": "Professional Management & Security Hub",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [
-    "telegram-bot",
-    "cyber-security",
-    "automation",
-    "termux",
-    "hacking-tools"
-  ],
-  "author": "Mohamed Mahmoud (NovaDev)",
-  "license": "MIT",
+  "author": "TigerX-Nova",
   "dependencies": {
     "telegraf": "^4.12.0",
     "axios": "^1.4.0",
     "express": "^4.18.2",
+    "web3": "^4.0.1",
     "child_process": "^1.0.2"
   }
 }
