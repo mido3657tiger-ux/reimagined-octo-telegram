@@ -1,13 +1,19 @@
-# 🐯 TigerX Empire - NovaDev Portfolio
+# 🐯 Tiger-X Ultimate v5.0 (NovaDev System)
 
-Welcome to my professional workspace. I am **Mohamed Mahmoud**, a Full-Stack Developer specializing in:
-- **Backend:** Node.js, Express, Server Management (PM2).
-- **Automation:** Telegram Bots (Tiger-X System).
-- **Security:** Network testing and system auditing.
+## 🛡️ Cyber Security & Remote Administration Hub
+Professional full-stack system designed for remote server exploitation, monitoring, and administrative control.
 
-## 🚀 Projects
-1. **TigerX Bot:** Advanced automation for Termux environments.
-2. **NovaDev Dashboard:** Professional web interface for system monitoring.
+### 🚀 Core Features:
+- **Remote Terminal Execution:** Full command-line access via encrypted Telegram API.
+- **Cyber-Audit Suite:** Built-in wrappers for `Nmap`, `Sqlmap`, and `Dirb`.
+- **System Monitoring:** Real-time dashboard for server health and active nodes.
+- **Vulnerability Scanner:** Automated scripts to detect security loopholes.
 
-## 💳 Business Verification
-This repository serves as the official portfolio for **Stripe** and **Mercor** verification.
+### 🛠️ Technology Stack:
+- **Engine:** Node.js (Telegraf v4, Axios, Child Process)
+- **Environment:** Termux / Linux Subsystems
+- **Architecture:** Tiger-CORE V2 Centralized Management
+
+### ⚠️ Disclaimer:
+This system is created for educational and professional security auditing purposes by Mohamed Mahmoud (NovaDev).
+
